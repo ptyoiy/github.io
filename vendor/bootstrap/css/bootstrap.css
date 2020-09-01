@@ -76,6 +76,7 @@ hr {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+  display: inline;
 }
 
 p {
@@ -4336,6 +4337,8 @@ input[type="button"].btn-block {
 
 .navbar {
   position: relative;
+  background: linear-gradient( to right, #1d96b7, #918ff7);
+  height: 40px;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -4344,7 +4347,6 @@ input[type="button"].btn-block {
   align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
 }
 
 .navbar .container,
