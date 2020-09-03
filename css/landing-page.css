@@ -8,7 +8,7 @@
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-h1,
+h1, 
 h2,
 h3,
 h4,
@@ -54,7 +54,7 @@ header.masthead h1 {
 
 @media(max-width:767px){
   #wrapper{
-    font-size: 70%;
+    font-size: 0.93rem;
   }
 
   #col-1{
@@ -100,11 +100,15 @@ header.masthead h1 {
     margin-bottom: 16px;
     margin-left:30px;
   }
+ 
+  #main-h1{
+   letter-spacing: 1.488rem;
+   display: inline-block;
+ }
 
 
 }
 
-@media (min-width: 768px) {
   header.masthead {
     padding-top: 12rem;
     padding-bottom: 12rem;
@@ -113,12 +117,11 @@ header.masthead h1 {
     font-size: 3rem;
   }
 
-  #col-1{
+@media (min-width: 768px) {
 
+  #col-1{
     margin: 0px;
     padding: 0px;
-    
-  
     margin-left: 40px;
   }
   
@@ -156,6 +159,11 @@ header.masthead h1 {
     margin-bottom: 16px;
     margin-left:60px;
   } 
+ 
+   #main-h1{
+    letter-spacing: 1.875rem;
+    display: inline-block;
+  }
   
 
 }
@@ -169,7 +177,7 @@ header.masthead h1 {
   background-size: cover;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .showcase .showcase-text {
     padding: 7rem;
   }
@@ -216,6 +224,11 @@ header.masthead h1 {
     margin-top: 59px;
     margin-bottom: 16px;
     margin-left:60px;
+  }
+ 
+   #main-h1{
+    letter-spacing: 1.875rem;
+    display: inline-block;
   }
   
    
