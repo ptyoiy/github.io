@@ -81,28 +81,34 @@ header.masthead h1 {
   
   #text-1>p,#text-1>h5{
     margin-right:30px;
-    word-spacing:3px;
+    word-spacing:0.4vw;
+    font-size: 4vw;
   }
   
   
   #text-2>p,#text-2>h5{
     margin-left:30px;
-    word-spacing:3px;
+    word-spacing:0.4vw;
+    font-size: 4vw;
   }
   #main-text{
     margin-top: 44px;
     margin-bottom: 16px;
     margin-right:30px;
+    font-size: 8vw;
+
   }
   
   #main-text-2{
     margin-top: 44px;
     margin-bottom: 16px;
     margin-left:30px;
+    font-size: 8vw;
+
   }
  
   #main-h1{
-   letter-spacing: 1.488rem;
+   letter-spacing: 5vw;
    display: inline-block;
  }
 
