@@ -52,7 +52,8 @@ header.masthead h1 {
   font-size: 2rem;
 }
 
-@media(max-width:767px){
+@media(max-width:767px)
+{
   #wrapper{
     font-size: 0.93rem;
   }
@@ -110,8 +111,9 @@ header.masthead h1 {
   #main-h1{
    letter-spacing: 5vw;
    display: inline-block;
-   
-  #main-1-img{
+ }
+
+ #main-1-img{
   height: 28vw;
  }
  #main-Life{
@@ -127,6 +129,10 @@ header.masthead h1 {
   padding-right: 5vw;
 }
 }
+  
+
+
+
 
 
   header.masthead {
@@ -184,8 +190,8 @@ header.masthead h1 {
     letter-spacing: 1.875rem;
     display: inline-block;
   }
- 
-   #main-1-img{
+
+  #main-1-img{
     height: 15vw;
   }
 
@@ -268,8 +274,8 @@ header.masthead h1 {
     letter-spacing: 1.875rem;
     display: inline-block;
   }
- 
-   #main-1-img{
+
+  #main-1-img{
     height: 15vw;
   }
 
@@ -286,8 +292,6 @@ header.masthead h1 {
     padding-left: 17vw; 
     padding-right: 17vw;
   }
-   
-  
    
 }
 
@@ -405,5 +409,4 @@ p{
   border: 1px solid red;
 
 } 
-
 
