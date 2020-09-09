@@ -113,21 +113,25 @@ header.masthead h1 {
    display: inline-block;
  }
 
- #main-1-img{
-  height: 28vw;
- }
- #main-Life{
-  width: 80vw; 
- }
- #main-font-size-3{
-   font-size: 8vw;
- }
+  #main-1-img{
+   height: 28vw;
+  }
+  #main-Life{
+   width: 80vw; 
+  }
+  #main-font-size-3{
+    font-size: 8vw;
+  }
 
- #main-icons-3{
-  width: 1200px; 
-  padding-left: 5vw; 
-  padding-right: 5vw;
-}
+  #main-icons-3{
+   width: 1200px; 
+   padding-left: 5vw; 
+   padding-right: 5vw;
+ }
+ 
+   #img-2{
+    height: 50%;
+  }
 }
   
 
@@ -207,7 +211,9 @@ header.masthead h1 {
     padding-left: 13vw; 
     padding-right: 13vw;
   }
-  
+    #img-2{
+    height: 80%;
+  }
   
 
 }
@@ -293,6 +299,9 @@ header.masthead h1 {
     padding-right: 17vw;
   }
    
+    #img-2{
+    height: 80%;
+  }
 }
 
 .features-icons {
